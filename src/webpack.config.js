@@ -15,7 +15,10 @@ module.exports = {
     ],
     module: {
         loaders: [
-            { test: /\.tsx?$/, loader: 'ts-loader' }
+            { test: /\.tsx?$/, loader: 'ts-loader' },
+            { test: /\.scss$/, loader: "style!css!sass" },
+            { test: /\.jpe?g$|\.gif$|\.png$|\.svg$|\.woff$|\.ttf$/, loader: "file" },
+
         ],
         preLoaders: [
             { test: /\.js$/, loader: "source-map-loader" }
