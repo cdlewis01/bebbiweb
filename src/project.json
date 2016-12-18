@@ -12,7 +12,8 @@
     "Microsoft.Extensions.Configuration.EnvironmentVariables": "1.0.0",
     "Microsoft.Extensions.Configuration.Json": "1.0.0",
     "Microsoft.Extensions.Logging": "1.0.0",
-    "Microsoft.Extensions.Logging.Console": "1.0.0"
+    "Microsoft.Extensions.Logging.Console": "1.0.0",
+    "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0"
   },
 
   "frameworks": {
@@ -46,6 +47,13 @@
 
   "scripts": {
     "prepublish": ["npm install","node node_modules/webpack/bin/webpack.js"]
+  },
+
+  "tools":{
+    "Microsoft.AspNetCore.Server.IISIntegration.Tools": {
+      "version": "1.0.0-preview2-final",
+      "imports": "portable-net45+win8+dnxcore50"
+    }
   },
 
   "tooling": {
