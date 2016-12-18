@@ -44,7 +44,7 @@
   },
 
   "scripts": {
-    "prepublish": ["npm install", "node node_modules/webpack/lib/webpack.js"]
+    "prepublish": ["npm install","node node_modules/webpack/bin/webpack.js"]
   },
 
   "tooling": {
