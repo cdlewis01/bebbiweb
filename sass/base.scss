@@ -1,0 +1,13 @@
+$bootstrap-sass-asset-helper: true;
+$body-bg: transparent;
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+@import "navigation";
+html{
+    background: url("/images/alberthall-dark.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.thumbnail{
+    background: $jumbotron-bg;
+}
