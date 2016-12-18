@@ -30,6 +30,7 @@ namespace WebApplication
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
+            loggerFactory.AddFile("logs/{Date}.log");
 
             if (env.IsDevelopment())
             {
