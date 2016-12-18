@@ -44,7 +44,6 @@
   },
 
   "scripts": {
-    "prepublish": [ "npm install", "webpack" ]
   },
 
   "tooling": {
