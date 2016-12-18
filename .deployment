@@ -1,2 +1,2 @@
 [config]
-command=dotnet publish --configuration Release
+command=dotnet publish --configuration Release 
