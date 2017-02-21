@@ -6,7 +6,7 @@
     "@types/node": "0.0.2",
     "css-loader": "^0.26.1",
     "gulp": "^3.9.1",
-    "gutil": "^1.6.4",
+    "gulp-util": "^3.0.8",
     "node-sass": "^3.13.1",
     "sass-loader": "^4.0.2",
     "source-map-loader": "^0.1.5",
