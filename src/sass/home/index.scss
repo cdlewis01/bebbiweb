@@ -1,8 +1,66 @@
 @import '../base';
 
-.testimonial {
-    background: $jumbotron-bg;
-    p{
-        font-style: italic;
-    }
+.header-background{
+    height: 160px;
+    
+
+    background: $gray-light; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($gray-dark, $gray-light); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($gray-dark, $gray-light); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($gray-dark, $gray-light); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($gray-dark, $gray-light); /* Standard syntax */
+    background:white url("/images/wordcloud.svg") no-repeat fixed center;
+    margin-bottom: -100px;
+    border-bottom: 3px solid $gray-darker;
 }
+
+.profile-image-container{
+    img{
+        display:block;
+        margin: 0px auto 0px auto;
+        border: 3px solid $gray-darker;
+        height: 300px;
+        width: 240px;
+    }
+
+}
+
+.profile-container{
+    img{
+    width: 200px;
+    height: 100px;
+    }
+    margin-top: -200px;
+}
+
+.blog{
+    color: $gray-lighter;
+    .blog-header {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .blog-title {
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-weight: normal;
+    }
+    .blog-description {
+        font-size: 20px;
+    }
+
+    .blog-post{
+        .blog-post-title{
+            span{
+                padding: 0 5px 0px 5px;
+            }
+            small{
+                text-align: right;
+            }
+        }
+    }
+
+}
+
+
+
+

@@ -1,13 +1,19 @@
 $bootstrap-sass-asset-helper: true;
 $body-bg: transparent;
+$icon-font-path: "bootstrap-sass/assets/fonts/bootstrap/";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 @import "navigation";
 html{
-    background: url("/images/alberthall-dark.jpg") no-repeat center center fixed; 
+    background-color: $gray-darker; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
 }
-.thumbnail{
-    background: $jumbotron-bg;
+.brand-image{
+    width: 45px;
+    height:45px;
+}
+.navbar-header{
+    margin-bottom:  30px
 }
